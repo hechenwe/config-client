@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;
 
 @Configuration
-@ImportResource(locations={"classpath:db_config/spring-comm-dao.xml"})
+@ImportResource(locations={"classpath:bean_manager/spring-comm-dao.xml","classpath:bean_manager/parameter_verification.xml"})
 public class ConfigClass {
     
 }
