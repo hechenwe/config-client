@@ -32,7 +32,12 @@
 	<!-- <bean id="sqlXmlManager" class="com.sooncode.soonjdbc.sql.xml.SqlXmlManager">
 		<property name="xmlFileLocation" value="classpath:sql" />
 	</bean> -->
- 
+	
+ <!-- <bean id="javaBeanBuilder" class="com.sooncode.soonjdbctool.JavaBeanBuilder"> 
+		<property name="jdbcTemplate" ref="jdbcTemplate" /> 
+		<property name="codePath" value="D:\workspaces\operation_platform\src\main\java\com\creditease\operation_platform\dao\pojo"/> 
+		<property name="packageName" value="com.creditease.operation_platform.dao.pojo"/> 
+		</bean>   -->
 
 
 </beans>
